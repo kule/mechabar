@@ -2,6 +2,7 @@
 	"temperature": {
 		"thermal-zone": 1,
 		// "hwmon-path":
+		"hwmon-path": "/sys/class/hwmon/hwmon0/temp1_input",
 		// "hwmon-path-abs":
 		// "input-filename":
 		// "warning-threshold":
