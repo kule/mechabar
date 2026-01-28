@@ -7,6 +7,11 @@ A mecha-themed, modular Waybar configuration.
 | ![Mechabar](./assets/catppuccin-mocha.png) |
 | :--------------------------------------: |
 
+### Changes
+
+Just some minor amendments for my own personal taste and to make it work
+on asahi linux & fedora.
+
 <details>
 <summary>Themes</summary>
 
