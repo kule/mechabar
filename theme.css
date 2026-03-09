@@ -56,6 +56,10 @@
 @define-color backlight     @base;
 @define-color battery       @surface0;
 
+@define-color workspace-active #ffffff;
+@define-color workspace-urgent @yellow;
+
+
 /* state colors */
 
 @define-color warning       @yellow;

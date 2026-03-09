@@ -18,10 +18,18 @@
 	padding: 0 1px;
 	background-color: @workspaces;
 }
-#workspaces button.active label,
 #workspaces button.focused label {
 	color: @accent;
 }
+
+#workspaces button.active label {
+	color: @workspace-active;
+}
+
+#workspaces button.urgent {
+  color: @workspace-urgent;
+}
+
 
 /*------------------
     window title

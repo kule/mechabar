@@ -5,11 +5,21 @@
 		// "all-outputs":
 		"format": "{icon}",
 		"format-icons": {
-			"active": "",
+			"1": "",
+			"2": "󰊻",
+			"3": "󰆍 ",
+			"4": "",
+			"5": "󰢹",
+//			"active": "",
 			"default": ""
 		},
+//		"persistent-workspaces": {
+//			"*": 5
+//		},
 		"persistent-workspaces": {
-			"*": 5
+			"eDP-1": [ "1", "2", "3", "4", "5" ],
+			"DP-1": [ "1", "2", "3", "4", "5" ],
+			"HDMI-1": [ "1", "2", "3", "4", "5" ]
 		},
 		// "persistent-only":
 		// "show-special":
