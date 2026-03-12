@@ -2,15 +2,8 @@
 	"group/pulseaudio": {
 		"orientation": "horizontal",
 		"modules": [
-			"pulseaudio#output",
-			"pulseaudio#input"
-		],
-		"drawer": {
-			// "transition-duration":
-			"transition-left-to-right": false
-			// "children-class":
-			// "click-to-reveal":
-		}
+			"pulseaudio#output"
+		]
 	},
 
 	/*-------------------
@@ -38,9 +31,9 @@
 		// "align":
 		// "justify":
 		// "scroll-step":
-		"on-click": "~/.config/waybar/scripts/volume.sh output mute",
+		"on-click": "bash -c 'hyprctl clients -j | jq -e \".[] | select(.class==\\\"wiremix-popup\\\")\" >/dev/null || kitty --class wiremix-popup -e wiremix'",
 		// "on-click-middle":
-		// "on-click-right":
+		"on-click-right": "~/.config/waybar/scripts/volume.sh output mute",
 		// "on-update":
 		"on-scroll-up": "~/.config/waybar/scripts/volume.sh output raise",
 		"on-scroll-down": "~/.config/waybar/scripts/volume.sh output lower",
@@ -51,43 +44,6 @@
 		// "ignored-sinks":
 		// "reverse-scrolling":
 		"reverse-mouse-scrolling": true
-		// "menu":
-		// "menu-file":
-		// "menu-actions":
-		// "expand":
-	},
-
-	/*----------------
-	    microphone
-	----------------*/
-
-	"pulseaudio#input": {
-		"format": "{format_source}",
-		// "format-bluetooth":
-		// "format-muted":
-		"format-source": "󰍬 {volume}%",
-		"format-source-muted": "󰍭 {volume}%",
-		// "format-icons":
-		// "rotate":
-		// "states":
-		"min-length": 7,
-		"max-length": 7,
-		// "align":
-		// "justify":
-		// "scroll-step":
-		"on-click": "~/.config/waybar/scripts/volume.sh input mute",
-		// "on-click-middle":
-		// "on-click-right":
-		// "on-update":
-		"on-scroll-up": "~/.config/waybar/scripts/volume.sh input raise",
-		"on-scroll-down": "~/.config/waybar/scripts/volume.sh input lower",
-		// "smooth-scrolling-threshold":
-		// "tooltip":
-		"tooltip-format": "<b>Input Device</b>: {desc}"
-		// "max-volume":
-		// "ignored-sinks":
-		// "reverse-scrolling":
-		// "reverse-mouse-scrolling":
 		// "menu":
 		// "menu-file":
 		// "menu-actions":
