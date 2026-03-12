@@ -59,6 +59,9 @@
 @define-color workspace-active #ffffff;
 @define-color workspace-urgent @yellow;
 
+@define-color distro-accent #51A2DA;
+@define-color distro-logo   #fff;
+
 
 /* state colors */
 
