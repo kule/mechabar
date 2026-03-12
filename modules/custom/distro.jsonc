@@ -15,7 +15,7 @@
 		// "max-length":
 		// "align":
 		// "justify":
-		// "on-click":
+		"on-click": "hyprsysteminfo",
 		// "on-click-middle":
 		// "on-click-right":
 		// "on-update":
