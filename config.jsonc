@@ -44,6 +44,7 @@
 	],
 	"modules-right": [
 		"mpris",
+		"tray",
 		"custom/left_div#6",
 		"group/pulseaudio",
 		"custom/left_div#7",
