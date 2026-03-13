@@ -31,7 +31,7 @@
 		// "align":
 		// "justify":
 		// "scroll-step":
-		"on-click": "bash -c 'hyprctl clients -j | jq -e \".[] | select(.class==\\\"wiremix-popup\\\")\" >/dev/null || kitty --class wiremix-popup -e wiremix'",
+		"on-click": "~/.config/waybar/scripts/toggle-audio-mixer.sh",
 		// "on-click-middle":
 		"on-click-right": "~/.config/waybar/scripts/volume.sh output mute",
 		// "on-update":
