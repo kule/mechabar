@@ -1,9 +1,9 @@
 {
-	"group/user": {
+	"group/tray-drawer": {
 		"orientation": "horizontal",
 		"modules": [
 			"custom/trigger",
-			"custom/user"
+			"tray"
 		],
 		"drawer": {
 			// "transition-duration":
@@ -43,41 +43,6 @@
 		// "menu-file":
 		// "menu-actions":
 		// "expand":
-	},
-
-	/*--------------
-	    username
-	--------------*/
-
-	"custom/user": {
-		"exec": "id -un",
-		// "exec-if":
-		// "exec-on-event":
-		// "hide-empty-text":
-		// "return-type":
-		// "interval":
-		// "restart-interval":
-		// "signal":
-		"format": "{}",
-		// "format-icons":
-		// "rotate":
-		// "min-length":
-		// "max-length":
-		// "align":
-		// "justify":
-		// "on-click":
-		// "on-click-middle":
-		// "on-click-right":
-		// "on-update":
-		// "on-scroll-up":
-		// "on-scroll-down":
-		// "smooth-scrolling-threshold":
-		"tooltip": false
-		// "tooltip-format":
-		// "escape":
-		// "menu":
-		// "menu-file":
-		// "menu-actions":
-		// "expand":
 	}
 }
+

@@ -1,11 +1,3 @@
-/*--------------
-    username
---------------*/
-
-#custom-user {
-	padding-right: 12px;
-}
-
 /*----------------
     workspaces
 ----------------*/
@@ -37,4 +29,47 @@
 
 #window {
 	margin-left: 12px;
+}
+
+/*----------------
+    tray
+----------------*/
+
+#tray {
+}
+/* for the context menu */
+#tray menu {
+	padding-top: 25px;
+}
+#tray menu menuitem {
+	padding: 10px 20px;
+	background-color: @hover-bg;
+}
+#tray menu menuitem:first-child {
+	border-radius: 16px 16px 0px 0px;
+}
+#tray menu menuitem:last-child {
+	border-radius: 0px 0px 16px 16px;
+}
+#tray menu menuitem:hover {
+  background-color: @accent;
+}
+
+#tray menu menuitem:hover label {
+	color: @crust;
+}
+/* for icons */
+#tray widget>image {
+  padding-right: 8px;
+}
+
+/* for icons with status Passive */
+#tray > .passive {
+}
+/* for icons with status Active */
+#tray > .active {
+}
+/* for icons with status NeedsAttention */
+#tray > .needs-attention {
+	color: @warning;
 }
