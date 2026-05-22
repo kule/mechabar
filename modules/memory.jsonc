@@ -14,7 +14,7 @@
 		"max-length": 7,
 		// "align":
 		// "justify":
-		// "on-click":
+		"on-click": "~/.config/waybar/scripts/toggle-system-monitor.sh",
 		// "on-click-middle":
 		// "on-click-right":
 		// "on-update":

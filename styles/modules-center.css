@@ -52,12 +52,12 @@
 
 #custom-left_div.5,
 #custom-right_div.2 {
-	color: @accent;
+	color: @distro-accent;
 }
 #custom-distro {
 	padding: 0 10px 0 5px;
-	background-color: @accent;
-	color: @main-bg;
+	background-color: @distro-accent;
+	color: @distro-logo;
 }
 
 /*--------------------

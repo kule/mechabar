@@ -12,8 +12,9 @@
 
 	"include": [
 		// modules-left
-		"~/.config/waybar/modules/custom/user.jsonc",
-		"~/.config/waybar/modules/hyprland/workspaces.jsonc",
+		"~/.config/waybar/modules/custom/tray_drawer.jsonc",
+		"~/.config/waybar/modules/hyprland/workspaces/home.jsonc",
+		"~/.config/waybar/modules/hyprland/workspaces/work.jsonc",
 		"~/.config/waybar/modules/hyprland/window.jsonc",
 
 		// modules-center
@@ -49,14 +50,14 @@
 	------------*/
 
 	"modules-left": [
-		"group/user",
+		"group/tray-drawer",
 		"custom/left_div#1",
 		"hyprland/workspaces",
-		"custom/right_div#1",
-		"hyprland/window"
+		"custom/right_div#1"
+		// "hyprland/window"
 	],
 	"modules-center": [
-		"hyprland/language",
+		// "hyprland/language",
 		"custom/left_div#2",
 		"temperature",
 		"custom/left_div#3",
